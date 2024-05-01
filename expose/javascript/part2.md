@@ -14,7 +14,7 @@
     c. `student.greeting()` </br>
     d. `student["Favorite Teacher"].name` </br>
     e. `student.courseLoad[0]`
-13. a. '32' because integers can be mapped to their string representation, so we get '3' + '2' (where + is a string concatenator) which concatenates to '32'. </br>
+13. a. '32': because integers can be mapped to their string representation, so we get '3' + '2' (where + is a string concatenator) which concatenates to '32'. </br>
     b. 1: because `-` doesn't act on anything for strings, so the subtraction operation is used and the string is converted to a number. </br>
     c. 3: because null acts as zero when it is used with numbers, so 3 + null would be 3 + 0 = 3 in this case. </br>
     d. '3null': because '3' is a string, and `+` is also a string concatenator, so JS converts null to 'null' and concatenates the two values. </br>
